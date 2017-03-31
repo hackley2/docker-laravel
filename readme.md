@@ -8,11 +8,13 @@ It uses the latest version of PHP, MySQL, and Apache
 ## Development Environment
 To get your local development environment running, run the following command:
 
-
-
 ```bash
 docker-compose up -d
 # now point your web-browser to 127.0.0.1
+```
+To stop your local development environment:
+```bash
+docker-compose stop
 ```
 
 ## Terminal Access
